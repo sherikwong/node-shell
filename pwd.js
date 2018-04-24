@@ -1,4 +1,4 @@
-module.export = function () {
+module.exports = function(cmd) {
     if (cmd == "pwd") {
     const cmd = `${process.cwd()}`;
     process.stdout.write(cmd); // Outputs what we typed
